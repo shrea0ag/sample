@@ -13,6 +13,7 @@ class UsersController < ApplicationController
   	
   	if @user.save
       log_in @user
+      remember(@user)
   		redirect_to @user
       flash[:success] = "Welcome #{@user.name}"
   	else
