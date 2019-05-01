@@ -43,8 +43,8 @@ Rails.application.configure do
       :port                 => 587,
       # in previous Stackoverflow I read :domain part wasn't needed, so leave it out
       # :domain               => 'gmail.com',
-      :user_name            => 'shipra0ag@gmail.com',
-      :password             => '9829308764',
+      :user_name            => '',
+      :password             => '',
       :authentication       => 'plain',
       :enable_starttls_auto => true
   }
